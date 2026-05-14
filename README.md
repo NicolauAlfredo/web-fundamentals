@@ -47,28 +47,28 @@ web-fundamentals/
 
 # Topics Covered
 - HTML
-    Semantic HTML
-    Forms
-    Tables
-    Media
-    Accessibility
-    Page structure
+    - Semantic HTML
+    - Forms
+    - Tables
+    - Media
+    - Accessibility
+    - Page structure
 
 - CSS
-    Selectors
-    Box model
-    Flexbox
-    Grid
-    Responsive design
-    Animations
+    - Selectors
+    - Box model
+    - Flexbox
+    - Grid
+    - Responsive design
+    - Animations
 
 # Purpose
 
 - This repository serves as:
-    A study archive
-    A revision environment
-    A practical sandbox for experimenting with layouts and styling techniques
-    A long-term reference for front-end fundamentals
+    - A study archive
+    - A revision environment
+    - A practical sandbox for experimenting with layouts and styling techniques
+    - A long-term reference for front-end fundamentals
 
 # Technologies
 - HTML5
