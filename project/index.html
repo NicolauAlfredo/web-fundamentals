@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Fundamentals</title> 
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__brand">
+        <span class="header__logo">LOGO HERE</span>
+        <span class="header__brand-name">Meu portfólio</span>
+      </div>
+
+      <nav class="header__nav nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#about">Sobre o curso</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#html">HTML</a></li>
+          <li class="nav__item"><a class="nav__link" href="#css">CSS</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#github">GitHub</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <span class="hero__subtitle">Portfólio de Estudos</span>
+
+          <h1 class="hero__title">
+            Minha Jornada no
+            <span class="hero__title-highlight">Desenvolvimento Web</span>
+          </h1>
+
+          <p class="hero__description">
+            Este portfólio apresenta meu progresso no curso básico de HTML e CSS
+            da Develhope, com todos os tópicos estudados, aulas realizadas e
+            exercícios concluídos.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#">
+              <img
+                class="button__icon"
+                src="./assets/icons/github-icon"
+                alt=""
+              />
+              <span class="button__text">Ver no GitHub</span>
+            </a>
+
+            <a class="button button--secondary" href="#">
+              <img
+                class="button__icon"
+                src="./assets/icons/certificado-icon"
+                alt=""
+              />
+              <span class="button__text">Ver certificado</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__image-wrapper">
+          <img
+            class="hero__image"
+            src="./assets/images/hero-image"
+            alt="Portfólio de estudos de Nicolau Alfredo"
+          />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__content">
+          <span class="about__subtitle">Sobre o curso</span>
+
+          <h2 class="about__title">HTML & CSS Básico</h2>
+
+          <p class="about__description">
+            Curso básico da Develhope focado nos fundamentos de HTML e CSS.
+            Aprendi a estruturar páginas web semânticas e a estilizar interfaces
+            utilizando seletores, propriedades e boas práticas.
+          </p>
+
+          <div class="about__stats">
+            <article class="stat-card">
+              <img
+                class="stat-card__icon"
+                src="./assets/icons/modules"
+                alt=""
+              />
+              <div class="stat-card__content">
+                <span class="stat-card__value">2</span>
+                <p class="stat-card__label">Módulos</p>
+              </div>
+            </article>
+
+            <article class="stat-card">
+              <img
+                class="stat-card__icon"
+                src="./assets/icons/classes"
+                alt=""
+              />
+              <div class="stat-card__content">
+                <span class="stat-card__value">32+</span>
+                <p class="stat-card__label">Aulas</p>
+              </div>
+            </article>
+
+            <article class="stat-card">
+              <img
+                class="stat-card__icon"
+                src="./assets/icons/exercises"
+                alt=""
+              />
+              <div class="stat-card__content">
+                <span class="stat-card__value">18+</span>
+                <p class="stat-card__label">Exercícios</p>
+              </div>
+            </article>
+
+            <article class="stat-card">
+              <img
+                class="stat-card__icon"
+                src="./assets/icons/completed"
+                alt=""
+              />
+              <div class="stat-card__content">
+                <span class="stat-card__value">Concluído</span>
+                <p class="stat-card__label">Jun 2024</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="about__image-wrapper">
+          <img
+            class="about__image"
+            src="./assets/images/about-image"
+            alt="Resumo visual do curso"
+          />
+        </div>
+      </section>
+
+      <section class="topics">
+        <h2 class="topics__title">Tópicos Estudados</h2>
+
+        <div class="topics__grid">
+          <article class="topic-card topic-card--html" id="html">
+            <header class="topic-card__header">
+              <img class="topic-card__icon" src="./assets/icons/html" alt="" />
+              <div class="topic-card__heading">
+                <h3 class="topic-card__title">HTML Básico</h3>
+                <p class="topic-card__description">
+                  Estrutura e semântica de páginas web.
+                </p>
+              </div>
+            </header>
+
+            <hr class="topic-card__divider" />
+
+            <ul class="topic-card__list">
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text"
+                  >Estrutura de uma página HTML</span
+                >
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text">Tags e elementos</span>
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text">Atributos</span>
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text"
+                  >Listas, links e tabelas</span
+                >
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text">Mini Projeto HTML</span>
+              </li>
+            </ul>
+
+            <footer class="topic-card__footer">
+              <span class="topic-card__status">Exercícios concluídos: 9+</span>
+              <a class="topic-card__link" href="#">Ver detalhes</a>
+            </footer>
+          </article>
+
+          <article class="topic-card topic-card--css" id="css">
+            <header class="topic-card__header">
+              <img class="topic-card__icon" src="./assets/icons/css" alt="" />
+              <div class="topic-card__heading">
+                <h3 class="topic-card__title">CSS Básico</h3>
+                <p class="topic-card__description">
+                  Estilização e layout de páginas web.
+                </p>
+              </div>
+            </header>
+
+            <hr class="topic-card__divider" />
+
+            <ul class="topic-card__list">
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text"
+                  >Seletores e combinadores</span
+                >
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text">Box Model</span>
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text"
+                  >Pseudo-classes e pseudo-elementos</span
+                >
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text"
+                  >Layout e posicionamento</span
+                >
+              </li>
+
+              <li class="topic-card__item">
+                <img
+                  class="topic-card__item-icon"
+                  src="./assets/icons/"
+                  alt=""
+                />
+                <span class="topic-card__item-text">Mini Projeto CSS</span>
+              </li>
+            </ul>
+
+            <footer class="topic-card__footer">
+              <span class="topic-card__status">Exercícios concluídos: 9+</span>
+              <a class="topic-card__link" href="#">Ver detalhes</a>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="lessons">
+        <h2 class="lessons__title">Aulas e Exercícios</h2>
+
+        <div class="lessons__filters">
+          <button class="lessons__filter lessons__filter--active" type="button">
+            Todos
+          </button>
+          <button class="lessons__filter" type="button">HTML</button>
+          <button class="lessons__filter" type="button">CSS</button>
+        </div>
+
+        <div class="lessons__grid">
+          <article class="lesson-card lesson-card--class">
+            <div class="lesson-card__badge">
+              <img
+                class="lesson-card__badge-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+              <span class="lesson-card__badge-text">Aula</span>
+            </div>
+
+            <h3 class="lesson-card__title">Estrutura de uma página HTML</h3>
+            <p class="lesson-card__description">
+              Aprendi sobre a estrutura básica de um documento HTML.
+            </p>
+
+            <hr class="lesson-card__divider" />
+
+            <a class="lesson-card__link" href="#">
+              <span class="lesson-card__link-text">Ver no GitHub</span>
+              <img
+                class="lesson-card__link-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+            </a>
+          </article>
+
+          <article class="lesson-card lesson-card--exercise">
+            <div class="lesson-card__badge">
+              <img
+                class="lesson-card__badge-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+              <span class="lesson-card__badge-text">Exercício</span>
+            </div>
+
+            <h3 class="lesson-card__title">Lista ordenada e não ordenada</h3>
+            <p class="lesson-card__description">
+              Exercício prático sobre listas em HTML.
+            </p>
+
+            <hr class="lesson-card__divider" />
+
+            <a class="lesson-card__link" href="#">
+              <span class="lesson-card__link-text">Ver no GitHub</span>
+              <img
+                class="lesson-card__link-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+            </a>
+          </article>
+
+          <article class="lesson-card lesson-card--class">
+            <div class="lesson-card__badge">
+              <img
+                class="lesson-card__badge-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+              <span class="lesson-card__badge-text">Aula</span>
+            </div>
+
+            <h3 class="lesson-card__title">Seletores principais em CSS</h3>
+            <p class="lesson-card__description">
+              Aprendi os seletores básicos e como aplicá-los.
+            </p>
+
+            <hr class="lesson-card__divider" />
+
+            <a class="lesson-card__link" href="#">
+              <span class="lesson-card__link-text">Ver no GitHub</span>
+              <img
+                class="lesson-card__link-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+            </a>
+          </article>
+
+          <article class="lesson-card lesson-card--exercise">
+            <div class="lesson-card__badge">
+              <img
+                class="lesson-card__badge-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+              <span class="lesson-card__badge-text">Exercício</span>
+            </div>
+
+            <h3 class="lesson-card__title">I Selettori 1</h3>
+            <p class="lesson-card__description">
+              Exercício prático sobre seletores em CSS.
+            </p>
+
+            <hr class="lesson-card__divider" />
+
+            <a class="lesson-card__link" href="#">
+              <span class="lesson-card__link-text">Ver no GitHub</span>
+              <img
+                class="lesson-card__link-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+            </a>
+          </article>
+
+          <article class="lesson-card lesson-card--repository">
+            <img class="lesson-card__icon" src="./assets/icons/" alt="" />
+
+            <h3 class="lesson-card__title">Ver todos no GitHub</h3>
+
+            <p class="lesson-card__description">
+              Todos os arquivos e projetos deste curso estão disponíveis no
+              GitHub.
+            </p>
+
+            <hr class="lesson-card__divider" />
+
+            <a class="lesson-card__link" href="#">
+              <span class="lesson-card__link-text">Acessar Repositório</span>
+              <img
+                class="lesson-card__link-icon"
+                src="./assets/icons/"
+                alt=""
+              />
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="more-topics">
+        <a class="more-topics__link" href="#">Ver todos os tópicos</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <section class="footer__section footer__section--about">
+          <h3 class="footer__title">Sobre Mim</h3>
+
+          <p class="footer__description">
+            Estudante de Desenvolvimento Web apaixonado por tecnologia e por
+            aprender coisas novas todos os dias.
+          </p>
+
+          <div class="footer__socials">
+            <a class="footer__social-link" href="#">
+              <img
+                class="footer__social-icon"
+                src="./assets/icons/"
+                alt="LinkedIn de Nicolau Alfredo"
+              />
+            </a>
+
+            <a class="footer__social-link" href="#">
+              <img
+                class="footer__social-icon"
+                src="./assets/icons/"
+                alt="GitHub de Nicolau Alfredo"
+              />
+            </a>
+
+            <a class="footer__social-link" href="#">
+              <img
+                class="footer__social-icon"
+                src="./assets/icons/"
+                alt="Email de Nicolau Alfredo"
+              />
+            </a>
+          </div>
+        </section>
+
+        <section class="footer__section footer__section--links">
+          <h3 class="footer__title">Links Rápidos</h3>
+
+          <nav class="footer__nav" aria-label="Links rápidos">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#about">Sobre o Curso</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#html">HTML</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#css">CSS</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#projects">Projetos</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#github">GitHub</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="footer__section footer__section--contact" id="contact">
+          <h3 class="footer__title">Contato</h3>
+
+          <div class="footer__contact-item">
+            <img class="footer__contact-icon" src="./assets/icons/" alt="" />
+            <a href="#" class="footer__contact-text">Vamos conectar!</a>
+          </div>
+
+          <div class="footer__contact-item">
+            <img class="footer__contact-icon" src="./assets/icons/" alt="" />
+            <a
+              class="footer__contact-link"
+              href="mailto:nicolaualfredo@gmail.com"
+            >
+              nicolaualfredo@gmail.com
+            </a>
+          </div>
+
+          <div class="footer__contact-item">
+            <img class="footer__contact-icon" src="./assets/icons/" alt="" />
+            <span class="footer__contact-text">Itália</span>
+          </div>
+        </section>
+
+        <section class="footer__quote">
+          <blockquote class="footer__quote-text">
+            A jornada de mil milhas começa com um único passo.
+          </blockquote>
+        </section>
+      </div>
+
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          2026 Meu Portfólio. Feito com 🤍 e muito código.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
