@@ -1,0 +1,19 @@
+div {
+  background-color: gray;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+div p {
+  background-color: green;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+div.div-bm-alt {
+  /* box-sizing: border-box; */
+}
