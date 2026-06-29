@@ -1,0 +1,102 @@
+.topics {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topics__grid {
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 80%;
+}
+
+.topic-card {
+  border: 0.1rem solid var(--color-border);
+  border-radius: 0.5rem;
+
+  width: 100%;
+  padding: 1rem;
+}
+
+.topic-card__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topic-card--html .topic-card__icon {
+  fill: var(--color-warning);
+}
+
+.topic-card__divider-html {
+  border: none;
+  height: 0.1rem;
+  background-color: var(--color-warning);
+  margin-bottom: 1rem;
+}
+
+.topic-card--css .topic-card__icon {
+  fill: var(--color-primary-light);
+}
+
+.topic-card__divider-css {
+  border: none;
+  height: 0.1rem;
+  background-color: var(--color-primary-light);
+  margin-bottom: 1rem;
+}
+
+.topic-card__icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.topic-card__item-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-primary-light);
+}
+
+.topic-card__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topic-card__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 1rem;
+}
+
+.topic-card__link {
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  width: 30%;
+  text-align: center;
+}
+
+.status-css {
+  color: var(--color-primary-light);
+  border: 0.1rem solid var(--color-primary-light);
+}
+
+.status-css:not(:last-child) {
+  border: none;
+}
+
+.status-html {
+  color: var(--color-warning);
+  border: 0.1rem solid var(--color-warning);
+}
+
+.status-html:not(:last-child) {
+  border: none;
+}

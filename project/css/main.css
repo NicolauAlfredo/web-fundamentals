@@ -6,12 +6,6 @@
 @import url("./layout/header.css");
 @import url("./layout/footer.css");
 
-/* Components */
-@import url("./components/button.css");
-@import url("./components/stat-card.css");
-@import url("./components/topic-card.css");
-@import url("./components/lesson-card.css");
-
 /* Sections */
 @import url("./sections/hero.css");
 @import url("./sections/about.css");
