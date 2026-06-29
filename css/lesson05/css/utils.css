@@ -1,0 +1,29 @@
+.d-flex {
+  display: flex;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.p-25 {
+  padding: 1.25rem;
+}
+
+.btn {
+  background: gray;
+  border: none;
+  font-size: 1.3rem;
+  padding: 0.7rem 1rem;
+}
