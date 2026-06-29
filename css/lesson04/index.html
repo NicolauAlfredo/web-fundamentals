@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lezione CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      img[src="../../assets/html/dahlia.webp"] {
+        border: 2px solid red;
+      }
+
+      img[src^="../../assets/"] {
+        border-radius: 20px;
+      }
+
+      /*
+        img[src^="../../assets/"] Inizia per
+        img[src$="dahlia.webp"] Finisce per
+        img[alt~="con"] Contiene la parola (separata da spazio)
+        img[src*="assets"] Contiene la parola
+        img[src|="on"] È esattamente o inizia con il valore seguito da un trattino
+      */
+    </style>
+  </head>
+  <body>
+    <img src="../../assets/html/dahlia.webp" alt="" width="400" height="400" />
+    <img src="../../assets/html/rose.webp" alt="" width="400" height="400" />
+  </body>
+</html>
