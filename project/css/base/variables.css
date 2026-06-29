@@ -1,0 +1,65 @@
+:root {
+  /* Brand */
+  --color-primary: #3563ff;
+  --color-primary-light: #5b82ff;
+  --color-primary-dark: #1d46d6;
+
+  /* Backgrounds */
+  --color-background: #f7f9fc;
+  --color-surface: #ffffff;
+  --color-surface-dark: #091223;
+  --color-surface-darker: #050d1d;
+
+  /* Text */
+  --color-text: #111827;
+  --color-text-light: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-text-white: #ffffff;
+
+  /* Borders */
+  --color-border: #e5e7eb;
+  --color-border-dark: #2d3748;
+
+  /* Status */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* HTML */
+  --color-html: #e44d26;
+
+  /* CSS */
+  --color-css: #2965f1;
+
+  /* GitHub */
+  --color-github: #171515;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* Container */
+  --container-width: 1200px;
+
+  /* Transition */
+  --transition: 0.3s ease;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+
+  /* Header */
+  --header-height: 80px;
+}
