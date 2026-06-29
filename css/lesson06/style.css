@@ -1,0 +1,22 @@
+/* Pseudo-Element */
+li::first-letter {
+  text-transform: capitalize;
+}
+
+ul::after {
+  content: "La fine della lista";
+  color: green;
+}
+
+/* Pseudo-Class */
+li:hover {
+  text-transform: uppercase;
+}
+
+ul li:first-child {
+  color: red;
+}
+
+li:hover::before {
+  content: " X ";
+}
