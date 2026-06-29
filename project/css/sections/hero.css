@@ -81,3 +81,8 @@
 .hero__image-wrapper {
   width: 40%;
 }
+
+.hero__image {
+  width: 400px;
+  height: auto;
+}
