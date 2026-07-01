@@ -112,13 +112,13 @@ css/
 
 ### Header & Hero
 
-![Header and Hero](./project/index/assets/screenshots/header-hero.png)
+![Header and Hero](./project/assets/screenshots/hero-section-screen.png)
 
 ---
 
 ### Course Overview
 
-![Course Overview](./project/assets/screenshots/hero-section-screen.png)
+![Course Overview](./project/assets/screenshots/il-corso-screen.png)
 
 ---
 
@@ -152,7 +152,7 @@ This project is deployed using GitHub Pages with GitHub Actions.
 
 Because the main index.html file is inside:
 ```txt
-project/index/
+project/index.html
 ```
 
 the deployment workflow publishes that folder directly to GitHub Pages.
