@@ -1,0 +1,87 @@
+.lessons {
+  padding: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lessons__grid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.lesson-card__badge-icon,
+.lesson-card__link-icon,
+.lesson-card__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.lesson-card {
+  background-color: var(--color-surface);
+  border: 0.1px solid var(--color-border);
+  padding: 1rem;
+  width: 70%;
+}
+
+.lesson-card__badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lesson-card--class .lesson-card__badge {
+  fill: var(--color-primary-light);
+}
+
+.lesson-card--exercise .lesson-card__badge {
+  fill: var(--color-success);
+}
+
+.lesson-card--repository .lesson-card__badge {
+  fill: var(--color-primary);
+}
+
+.lesson-card__title {
+  height: 3rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.lesson-card__description {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  height: 6rem;
+}
+
+.lesson-card__divider {
+  border: none;
+  height: 0.1rem;
+  background-color: var(--color-border);
+  margin-bottom: 1rem;
+}
+
+.lesson-card__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lesson-card__link-text {
+  color: var(--color-primary-light);
+}
+
+.lesson-card__link-icon {
+  fill: var(--color-primary-light);
+  width: 1.25rem;
+  height: auto;
+}
+
+.lesson-card__link-text:hover {
+  text-decoration: underline;
+}
