@@ -7,6 +7,40 @@
   align-items: center;
 }
 
+.lessons__title {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.lessons__filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.lessons__filters {
+  font-weight: 600;
+}
+
+.lessons__filter {
+  border-bottom: 0.1rem solid var(--color-border);
+}
+
+.lessons__filter:hover {
+  color: var(--color-primary-light);
+  border-bottom: 0.1rem solid var(--color-primary-light);
+}
+
+.lessons__filter--active {
+  color: var(--color-primary-light);
+  border-bottom: 0.1rem solid var(--color-primary-light);
+}
+
 .lessons__grid {
   display: flex;
   flex-direction: row;
